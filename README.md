@@ -2,27 +2,37 @@
 
 Pandas_Profiling generates profile reports from a pandas DataFrame. The pandas df.describe() function is great but a little basic for serious exploratory data analysis. pandas_profiling extends the pandas DataFrame with df.profile_report() for quick data analysis.
 
-For each column the following statistics - if relevant for the column type - are presented in an interactive HTML report:
+### In this project I have used Marketing dataset for analysis.
 
-Type inference: detect the types of columns in a dataframe.
+For each column the following statistics and at the end it can be presented in an interactive HTML report:
 
-Essentials: type, unique values, missing values
+#### Type inference: 
+detect the types of columns in a dataframe.
 
-Quantile statistics like minimum value, Q1, median, Q3, maximum, range, interquartile range
+#### Essentials: 
+type, unique values, missing values
 
-Descriptive statistics like mean, mode, standard deviation, sum, median absolute deviation, coefficient of variation, kurtosis, skewness
+#### Quantile statistics:
+minimum value, Q1, median, Q3, maximum, range, interquartile range
 
-Most frequent values
+#### Descriptive statistics:
+mean, mode, standard deviation, sum, median absolute deviation, coefficient of variation, kurtosis, skewness
 
-Histograms
+#### Most frequent values:
 
-Correlations highlighting of highly correlated variables, Spearman, Pearson and Kendall matrices
+#### Histograms:
 
-Missing values matrix, count, heatmap and dendrogram of missing values
+#### Correlations:
+highlighting of highly correlated variables, Spearman, Pearson and Kendall matrices
 
-Duplicate rows Lists the most occurring duplicate rows
+#### Missing values:
+matrix, count, heatmap and dendrogram of missing values
 
-Installation
-Using pip: 
+#### Duplicate rows:
+Lists the most occurring duplicate rows
+
+## Installation
+### Using pip: 
 pip install -U pandas-profiling[notebook]
+
 jupyter nbextension enable --py widgetsnbextension
