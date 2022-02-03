@@ -6,30 +6,23 @@ Pandas_Profiling generates profile reports from a pandas DataFrame. The pandas d
 
 For each column the following statistics and at the end it can be presented in an interactive HTML report:
 
-#### Type inference: 
-detect the types of columns in a dataframe.
+#### **Type inference**: detect the types of columns in a dataframe.
 
-#### Essentials: 
-type, unique values, missing values
+#### **Essentials**: type, unique values, missing values
 
-#### Quantile statistics:
-minimum value, Q1, median, Q3, maximum, range, interquartile range
+#### **Quantile statistics**: minimum value, Q1, median, Q3, maximum, range, interquartile range
 
-#### Descriptive statistics:
-mean, mode, standard deviation, sum, median absolute deviation, coefficient of variation, kurtosis, skewness
+#### **Descriptive statistics**: mean, mode, standard deviation, sum, median absolute deviation, coefficient of variation, kurtosis, skewness
 
-#### Most frequent values:
+#### **Most frequent values** 
 
-#### Histograms:
+#### **Histograms**
 
-#### Correlations:
-highlighting of highly correlated variables, Spearman, Pearson and Kendall matrices
+#### **Correlations**: highlighting of highly correlated variables, Spearman, Pearson and Kendall matrices
 
-#### Missing values:
-matrix, count, heatmap and dendrogram of missing values
+#### **Missing values**: matrix, count, heatmap and dendrogram of missing values
 
-#### Duplicate rows:
-Lists the most occurring duplicate rows
+#### **Duplicate rows**: Lists the most occurring duplicate rows
 
 ## Installation
 ### Using pip: 
