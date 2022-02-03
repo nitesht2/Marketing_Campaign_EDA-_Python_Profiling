@@ -2,7 +2,7 @@
 
 Pandas_Profiling generates profile reports from a pandas DataFrame. The pandas df.describe() function is great but a little basic for serious exploratory data analysis. pandas_profiling extends the pandas DataFrame with df.profile_report() for quick data analysis.
 
-### In this project I have used Marketing dataset for analysis.
+### **In this project I have used Marketing dataset for analysis.**
 
 For each column the following statistics and at the end it can be presented in an interactive HTML report:
 
